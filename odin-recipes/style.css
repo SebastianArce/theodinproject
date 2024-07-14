@@ -1,0 +1,23 @@
+/* li {
+    background-color: rgb(160, 160, 180);
+    color: white;
+    font-weight: bold;
+} */
+
+.images {
+    width: auto;
+    height: 400px;
+}
+
+.p1 {
+    background-color: azure;
+    color: blue;
+    font-family: cursive;
+    font-size: 22px;
+}
+
+.p2 {
+    background-color: rgb(69, 69, 123);
+    color: white;
+    font-weight: bold;
+}
