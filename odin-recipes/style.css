@@ -21,3 +21,33 @@
     color: white;
     font-weight: bold;
 }
+
+
+.title {
+    background-color: rgb(86, 86, 125);
+    text-align: center;
+    color: whitesmoke;
+    padding: 8px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.list {
+    border-style: solid;
+    border-color: rgb(86, 86, 125);
+    border-width: 2px;
+    border-radius: 15px;
+    display: inline-block;
+    padding: 24px;
+    margin: 20px auto;
+}
+
+.item {
+    margin: 20px auto;
+    font-size: large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
