@@ -1,12 +1,14 @@
 body {
     background-color: #58555564;
+    margin: 0;
 }
 
 .container {
-    display: inline-grid;
-    grid-template-columns: 80px 80px 80px 80px 80px;
-    grid-template-rows: 80px 80px 80px 80px 80px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
     background-color: lightblue;
+    height: 100vh;
     /* gap: 10px; */
     /* grid-auto-columns: 50px;
     grid-auto-rows: 50px; */
